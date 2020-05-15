@@ -30,6 +30,7 @@ SET(DISABLED_COMPILER_FLAGS
     /w34265
     /w34355
     /w34062
+    /RTC1
     --quit_after_warnings
     --coverage   # coverage broken for some externals
 )
