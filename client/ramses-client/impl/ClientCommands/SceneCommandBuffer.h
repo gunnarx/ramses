@@ -9,10 +9,16 @@
 #ifndef RAMSES_SCENECOMMANDBUFFER_H
 #define RAMSES_SCENECOMMANDBUFFER_H
 
+#include "Utils/Warnings.h"
 #include "ramses-framework-api/EValidationSeverity.h"
 #include "ramses-framework-api/RamsesFrameworkTypes.h"
 #include "Collections/String.h"
+
+WARNINGS_PUSH
+WARNING_DISABLE_VC(4245)
 #include "absl/types/variant.h"
+WARNINGS_POP
+
 #include <mutex>
 #include <vector>
 
